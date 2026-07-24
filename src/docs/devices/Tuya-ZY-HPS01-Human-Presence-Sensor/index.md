@@ -66,7 +66,8 @@ sensor:
     name: "Light Intensity"
     id: light_intensity
     sensor_datapoint: 103
-    unit_of_measurement: "lux"
+    unit_of_measurement: "lx"
+    device_class: "illuminance"
     icon: "mdi:brightness-5"
     state_class: "measurement"
 
